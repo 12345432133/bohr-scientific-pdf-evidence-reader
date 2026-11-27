@@ -20,7 +20,7 @@ python scripts/parse_pdf.py \
   --task /input/task.md \
   --out /app/output/result.json
 
-python scripts/validate_result.py /app/output/result.json
+python scripts/validate_result.py /app/output/result.json --case /input/case.json
 ```
 
 The parser writes `document.md`, `pages.json`, `tables.json`, `evidence.jsonl`, and `run.log` beside `result.json`.
