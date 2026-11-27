@@ -1,0 +1,3 @@
+interface:
+  display_name: "Scientific PDF Evidence Reader"
+  short_description: "Parse scientific PDFs with page-level evidence"
